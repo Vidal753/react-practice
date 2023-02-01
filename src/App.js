@@ -1,11 +1,10 @@
 import "./App.css";
+import FatherImperative from "./pages/useRef/FatherImperative";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>React-tailwind-js-template</p>
-      </header>
+    <div className=" bg-gray-800 h-screen">
+      <FatherImperative />
     </div>
   );
 }
