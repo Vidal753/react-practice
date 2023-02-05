@@ -1,17 +1,17 @@
-import React, { useRef } from "react";
-import ImperativeHandle from "./ImperativeHandle";
+import React, { useRef } from 'react';
+import ImperativeHandle from '../components/useRef/ImperativeHandle';
 
 const FatherImperative = () => {
   const imperativeRef = useRef();
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen">
       <ImperativeHandle
         ref={imperativeRef}
-        title={"useImperativeHandle Test"}
+        title={'useImperativeHandle Test'}
       />
       <button
-        className="bg-white p-2"
+        className="p-2 bg-white"
         onClick={() => {
           imperativeRef.current.handleVisible();
         }}

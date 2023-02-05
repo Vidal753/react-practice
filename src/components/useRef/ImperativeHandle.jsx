@@ -16,7 +16,7 @@ const ImperativeHandle = forwardRef(({ title }, ref) => {
   });
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col items-center justify-center">
       <span className="text-white text-[3rem]">
         {visible ? title : "Invisible"}
       </span>

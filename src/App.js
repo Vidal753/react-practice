@@ -1,9 +1,10 @@
-import "./App.css";
-import FatherImperative from "./pages/useRef/FatherImperative";
+import './App.css';
+import FatherImperative from './pages/FatherImperative';
+import MultipleState from './components/useState/MultipleState';
 
 function App() {
   return (
-    <div className=" bg-gray-800 h-screen">
+    <div className="h-screen bg-gray-800 ">
       <FatherImperative />
     </div>
   );
