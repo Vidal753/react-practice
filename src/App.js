@@ -5,7 +5,7 @@ import MultipleState from './components/useState/MultipleState';
 function App() {
   return (
     <div className="h-screen bg-gray-800 ">
-      <FatherImperative />
+      <MultipleState />
     </div>
   );
 }
